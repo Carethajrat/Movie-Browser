@@ -46,7 +46,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-# Deatil View for chosen movie
+# Detail View for chosen movie
 ![screencapture-localhost-3000-movies-The-Big-Bang-Theory-2023-03-09-15_59_36](https://user-images.githubusercontent.com/113019349/224244105-86afa396-0057-426a-afa0-918da699b572.png)
 
 
