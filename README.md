@@ -9,8 +9,6 @@ Complete installing react globally by using npm install `-g create-react-app` af
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -21,10 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,7 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Demo
 
 
-
+# On Large Screen
 # Search by Title
 ![screencapture-localhost-3000-search-2023-03-09-15_59_17](https://user-images.githubusercontent.com/113019349/224243963-df35d4f8-d2fa-45a6-bf91-0b7c8d2a7b7e.png)
 
@@ -49,6 +43,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Detail View for chosen movie
 ![screencapture-localhost-3000-movies-The-Big-Bang-Theory-2023-03-09-15_59_36](https://user-images.githubusercontent.com/113019349/224244105-86afa396-0057-426a-afa0-918da699b572.png)
 
+
+
+# On Mobile Screen Search : Spiderman no way home
+
+![Spiderman No Way Home](https://user-images.githubusercontent.com/113019349/224274893-8f29a507-8358-478b-977a-41dbc62cfb1c.png)
+
+Footer
+
+![Footer](https://user-images.githubusercontent.com/113019349/224274944-5b258c1f-a442-428d-a4c5-7503a793749f.png)
 
 
 
