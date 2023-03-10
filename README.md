@@ -3,7 +3,8 @@
 # Getting Started with Create React App
 
 To begin with:
-Complete installing react globally by using npm install -g create-react-app afterwords Create App using npx create-react-app my-app Change your directory to my-app using cd my-app To Run the app write npm start in your terminal.
+
+Complete installing react globally by using npm install `-g create-react-app` afterwords Create App using `npx create-react-app my-app` Change your directory to my-app using `cd my-app` To Run the app write `npm start` in your terminal.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
