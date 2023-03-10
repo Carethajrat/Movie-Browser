@@ -47,10 +47,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # On Mobile Screen Search : Spiderman no way home
 
+
+
 ![Spiderman No Way Home](https://user-images.githubusercontent.com/113019349/224274893-8f29a507-8358-478b-977a-41dbc62cfb1c.png)
-
-Footer
-
 ![Footer](https://user-images.githubusercontent.com/113019349/224274944-5b258c1f-a442-428d-a4c5-7503a793749f.png)
 
 
