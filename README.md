@@ -54,4 +54,19 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+
+# On Mobile Screen Search : The big bang theory
+
+![TBBT](https://user-images.githubusercontent.com/113019349/224275371-fc36a871-2298-487f-a53c-e2d3c3d0594d.png)
+![Footer](https://user-images.githubusercontent.com/113019349/224275362-e176e8a8-f18a-4dd9-88cd-bbee0bd8b537.png)
+
+
+
+# TBBT Detail View
+![TBBT Detail View](https://user-images.githubusercontent.com/113019349/224275547-410d0ca7-3dce-4474-bb29-a1cc67c9a9cb.png)
+![TBBT Detail View 1](https://user-images.githubusercontent.com/113019349/224275539-5d2af9a3-49a3-4545-955a-563f8e6ee5b8.png)
+![TBBT Detail View 2](https://user-images.githubusercontent.com/113019349/224275523-8c2396cd-331f-401f-8fe6-aa9128658390.png)
+![Footer](https://user-images.githubusercontent.com/113019349/224275533-e832d42f-25f9-43ac-bd6e-4115ec72ba93.png)
+
+
 See yaa !
