@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hover-effect-nav {
+  color: #000;
+}
+.hover-effect-nav:hover {
+  color: rgb(233, 15, 113) !important;
+  border-bottom: 3px solid rgb(233, 15, 113) !important ;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+.hover-effect-nav:active {
+  color: rgb(233, 15, 113) !important;
+  border-bottom: 3px solid rgb(233, 15, 113) !important ;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+.hover-effect-nav:focus-within {
+  color: rgb(233, 15, 113) !important;
+  border-bottom: 3px solid rgb(233, 15, 113) !important ;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.banner-movieview {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
+.text-padding {
+  padding-top: 130px;
+}
+.text-padding-home {
+  padding-top: 170px;
+}
+
+@media (min-width: 280px) and (max-width: 546px) {
+  .banner-movieview {
+    height: 150px;
+  }
+  .text-padding {
+    padding-top: 65px;
+  }
+  .text-padding-home {
+    padding-top: 95px;
+  }
+}
+
+.hover-scale:hover {
+  transform: scale(1.2);
+}
+.fa-phone:before {
+  content: "\f095";
+}
+.fa-mail-bulk:before {
+  content: "\f674";
+}
+.fa-info:before {
+  content: "\f129";
+}
+.fa-search:before {
+  content: "\f002";
+}
+.fa-film:before {
+  content: "\f008";
+}
+.fa-rocket:before {
+  content: "\f135";
+}
+footer {
+  margin: 0;
+  padding: 15px;
+}
+footer a {
+  color: #000;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+footer a:hover {
+  color: rgb(233, 15, 113);
+}
