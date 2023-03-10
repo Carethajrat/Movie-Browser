@@ -33,19 +33,23 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Demo
 
 
-# On Large Screen
-# Search by Title
+# On Large Screen Search by Title
+
+
 ![screencapture-localhost-3000-search-2023-03-09-15_59_17](https://user-images.githubusercontent.com/113019349/224243963-df35d4f8-d2fa-45a6-bf91-0b7c8d2a7b7e.png)
 
 
 
 
 # Detail View for chosen movie
+
+
 ![screencapture-localhost-3000-movies-The-Big-Bang-Theory-2023-03-09-15_59_36](https://user-images.githubusercontent.com/113019349/224244105-86afa396-0057-426a-afa0-918da699b572.png)
 
 
 
 # On Mobile Screen Search : Spiderman no way home
+
 
 
 
@@ -55,10 +59,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+
+
 # On Mobile Screen Search : The big bang theory
 
 ![TBBT](https://user-images.githubusercontent.com/113019349/224275371-fc36a871-2298-487f-a53c-e2d3c3d0594d.png)
 ![Footer](https://user-images.githubusercontent.com/113019349/224275362-e176e8a8-f18a-4dd9-88cd-bbee0bd8b537.png)
+
+
 
 
 
