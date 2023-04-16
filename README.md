@@ -7,6 +7,10 @@ To begin with:
 Complete installing react globally by using npm install `-g create-react-app` afterwords Create App using `npx create-react-app my-app` Change your directory to my-app using `cd my-app` To Run the app write `npm start` in your terminal.
 
 
+# API 
+To create your Api key click down below
+https://www.omdbapi.com/apikey.aspx
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
