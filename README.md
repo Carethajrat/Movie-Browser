@@ -1,5 +1,5 @@
 # caretSurf Movie Browse
-https://caretsuf.netlify.app
+https://caretsurf.netlify.app
 
 # Getting Started with Create React App
 
