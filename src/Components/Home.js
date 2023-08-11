@@ -32,7 +32,7 @@ const Home = () => {
       {/* Movie time section!!! */}
       <div className="container mt-5 mb-5 text-center">
         <div className="row row-cols-1   mt-5 mb-5">
-          <div className="col-lg-6 col-sm-4 mt-5 mb-5">
+          <div className="col-lg-6 col-sm-6 mt-5 mb-5">
             <div className="card  hover-scale mt-5 mb-5 border-0">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782162-33ede162-4a05-4259-95de-7a07d1d10fcd.jpg"
@@ -48,13 +48,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-8 mt-5 mb-5">
+          <div className="col-lg-6 col-sm-6 mt-5 mb-5">
             <div className="card  hover-scale border-0 ">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782248-e12e3598-42d2-4185-922e-e4c481aec8f8.jpg"
                 className="card-img-top"
                 alt="https://user-images.githubusercontent.com/113019349/221782248-e12e3598-42d2-4185-922e-e4c481aec8f8.jpg"
-                height="150px"
+                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">
@@ -67,7 +67,7 @@ const Home = () => {
                 src="https://user-images.githubusercontent.com/113019349/221782262-441c8d03-1f86-415a-bfd5-b2ba6cacb255.jpg"
                 className="card-img-top"
                 alt="https://user-images.githubusercontent.com/113019349/221782262-441c8d03-1f86-415a-bfd5-b2ba6cacb255.jpg"
-                height="150px"
+                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">Netflix and Popcorn Tudummmmm!</p>
@@ -78,7 +78,7 @@ const Home = () => {
                 src="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
                 className="card-img-top"
                 alt="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
-                height="150px"
+                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">Do it in The Big Bang Theory style.</p>

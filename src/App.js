@@ -16,9 +16,9 @@ import CopyRight from "./Components/CopyRight";
 // our rect hooks in here
 import { useState, useEffect } from "react";
 // import online and offline for detecting if user is online/offline
-import { Online, Offline } from "react-detect-offline";
+// import { Online, Offline } from "react-detect-offline";
 // Image that we will use when offline
-let logoOffline = require("./icons8-portrait-mode-female-100.png");
+// let logoOffline = require("./icons8-portrait-mode-female-100.png");
 
 function App() {
   // using react hooks in here to initialize our whether SearchText,
@@ -54,8 +54,8 @@ function App() {
 
       {/* our offline section */}
       <div className="App-header">
-        <Offline>
-          <div className="container  text-center">
+        {/* <Offline> */}
+          {/* <div className="container  text-center">
             <div className="col-12">
               <img
                 src={logoOffline}
@@ -75,12 +75,12 @@ function App() {
                 </button>
               </form>
             </div>
-          </div>
-        </Offline>
+          </div> */}
+        {/* </Offline> */}
       </div>
 
       {/* when online Route through these */}
-      <Online>
+      {/* <Online> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutView />} />
@@ -97,7 +97,7 @@ function App() {
           />
           <Route path="/movies/:Title" element={<MovieView />} />
         </Routes>
-      </Online>
+      {/* </Online> */}
 
       {/* Our default component very last footer in here */}
       <Footer />

@@ -54,9 +54,9 @@ body {
   }
 }
 
-.hover-scale:hover {
-  transform: scale(1.2);
-}
+/* .hover-scale:hover {
+  transform: ;
+} */
 .fa-phone:before {
   content: "\f095";
 }
