@@ -84,7 +84,7 @@ const MovieView = () => {
                   Wanna know more about {movieDetails.Title}?
                   <br /> Click down below
                 </p>
-                <a href={imdbSearch} className="btn btn-dark">
+                <a href={imdbSearch} className="btn search-btn">
                   More details
                 </a>
               </div>

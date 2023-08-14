@@ -17,7 +17,7 @@ const MovieCard = ({ movie }) => {
           <img src={posterURL} className="card-img-top" alt={movie.Title} />
           <div className="card-body">
             <h5 className="card-title">{movie.Title}</h5>
-            <a href={detailURL} className="btn btn-primary">
+            <a href={detailURL} className="btn search-btn">
               Show details
             </a>
           </div>
