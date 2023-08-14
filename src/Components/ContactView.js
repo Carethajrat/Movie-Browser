@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ImageContact from '../contact-us.jpg';
 const ContactView = () => {
   return (
     <>
@@ -39,18 +40,20 @@ const ContactView = () => {
         </div>
       </div>
       {/* contact section */}
-      <div className="container mt-5 mb-5">
+      <div className="container offset-md-1 mt-5 mb-5">
         <div className="row row-cols-md-1 row-cols-sm-2 mt-5 mb-5 g-2">
           <div className="col-md-6  col-sm-8 mt-5 mb-5">
-            <div className="card">
+            <div className="card border-0 ">
+              <div className="">
               <img
-                src="https://user-images.githubusercontent.com/113019349/221853082-4706b2e6-aaa8-4d12-987e-fe8b9ec3e5ec.jpg"
-                alt="https://user-images.githubusercontent.com/113019349/221853082-4706b2e6-aaa8-4d12-987e-fe8b9ec3e5ec.jpg"
-                height="450px"
+                src={ImageContact}
+                alt="contact us"
+                className="img-fluid float-lg-end"
               />
+              </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-8  mt-5 mb-5 p-2">
+          <div className="col-md-6  col-sm-8  mt-5 mb-5 p-2 ">
             <h1>caretSurf</h1>
             <p>
               <span>

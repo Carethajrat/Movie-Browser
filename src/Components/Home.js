@@ -16,12 +16,10 @@ const Home = () => {
       >
         <div className="col-lg-4 col-md-6 col-sm-12 ms-sm-0 ms-lg-5 ">
           <p className="text-white ms-sm-0 ms-lg-5 fs-lg-3 fs-sm-6 text-padding-home">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-            enim odio error. Esse officia molestias aspernatur quidem,
-            cupiditate quae dicta reprehenderit blanditiis dignissimos <br />
+          Cinema has been a part of the entertainment industry for a long time. It creates a massive impact on people all over the world. In other words, it helps them give a break from monotony. It has evolved greatly in recent years too. Cinema is a great escape from real life. <br />
             <Link
               to="/search"
-              className="btn btn-light fw-bold w-lg-25 w-sm-0 rounded-0 mt-3  "
+              className="btn  w-sm-0 rounded-0 mt-3 search-btn-banner "
             >
               Surf Now
             </Link>
@@ -36,9 +34,8 @@ const Home = () => {
             <div className="card  hover-scale mt-5 mb-5 border-0">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782162-33ede162-4a05-4259-95de-7a07d1d10fcd.jpg"
-                className="card-img-top"
+                className=" img-fluid img-fluid"
                 alt="https://user-images.githubusercontent.com/113019349/221782162-33ede162-4a05-4259-95de-7a07d1d10fcd.jpg"
-                height="450px"
               />
               <div className="card-body">
                 <p className="card-text">
@@ -52,9 +49,8 @@ const Home = () => {
             <div className="card  hover-scale border-0 ">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782248-e12e3598-42d2-4185-922e-e4c481aec8f8.jpg"
-                className="card-img-top"
+                className=" img-fluid"
                 alt="https://user-images.githubusercontent.com/113019349/221782248-e12e3598-42d2-4185-922e-e4c481aec8f8.jpg"
-                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">
@@ -65,25 +61,23 @@ const Home = () => {
             <div className="card  hover-scale border-0 ">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782262-441c8d03-1f86-415a-bfd5-b2ba6cacb255.jpg"
-                className="card-img-top"
+                className=" img-fluid"
                 alt="https://user-images.githubusercontent.com/113019349/221782262-441c8d03-1f86-415a-bfd5-b2ba6cacb255.jpg"
-                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">Netflix and Popcorn Tudummmmm!</p>
               </div>
             </div>
-            <div className="card  hover-scale border-0 ">
+            {/* <div className="card  hover-scale border-0 ">
               <img
                 src="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
-                className="card-img-top"
+                className=" img-fluid"
                 alt="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
-                height="200px"
               />
               <div className="card-body">
                 <p className="card-text">Do it in The Big Bang Theory style.</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -97,8 +91,7 @@ const Home = () => {
             </h4>
             <Link
               to="/search"
-              className="btn fw-bold p-3 w-50 text-white fs-3"
-              style={{ backgroundColor: "rgb(233, 15, 113)" }}
+              className="btn fw-bold p-3 w-50 text-white fs-3 search-btn"
             >
               Take me in
             </Link>
@@ -106,7 +99,7 @@ const Home = () => {
           <div className="col-sm-4 col-lg-6">
             <h4 className="fw-bold mt-5 mb-3">Watch Movie</h4>
             <Link
-              className=" disabled btn fw-bold p-3 w-50 text-white fs-3"
+              className=" disabled btn fw-bold p-3 w-50 text-white fs-3 "
               to="/"
               style={{ backgroundColor: "rgb(233, 15, 113)" }}
             >

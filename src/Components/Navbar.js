@@ -22,7 +22,7 @@ const Navbar = ({searchText,setSearchText,searchResults}) => {
   }
   return (
     // We will simply return a fancy Navbar using Bootstrap5
-    <nav className="navbar navbar-expand-lg bg-white sticky-top mt-3">
+    <nav className="navbar navbar-expand-lg bg-white sticky-top mt-3 overflow-hidden">
       <div className="container-fluid">
         <Link className="navbar-brand  hover-effect-nav active" to="/">
           caretSurf
@@ -41,7 +41,7 @@ const Navbar = ({searchText,setSearchText,searchResults}) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link hover-effect-nav active  " to="/">
+              <Link className="nav-link hover-effect-nav  " to="/">
                 Home
               </Link>
             </li>
@@ -68,14 +68,14 @@ const Navbar = ({searchText,setSearchText,searchResults}) => {
           </ul>
           <form className="d-flex" role="search" onSubmit={submitButton}>
             <input
-              className="form-control me-2"
+              className="form-control me-2 search-bar"
               type="search"
               placeholder="Search by Title"
               aria-label="Search"
               value={searchText}
               onChange={updateSearchText}
             />
-            <button className="btn btn-outline-dark" type="submit" >
+            <button className="btn search-btn" type="submit" >
               Search
             </button>
           </form>

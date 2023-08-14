@@ -2,7 +2,7 @@ const MovieNotFound = () => {
   return (
     <>
       {/* In case if user has either typo or the movie simply just doesn't exist */}
-      <div className="App-header mt-5 mb-5">
+      <div className="App-header" style={{marginTop:"130px"}}>
         <div className="container  text-center mt-5 mb-5">
           <div className="col-12 mt-lg-5 mb-lg-5">
             <img

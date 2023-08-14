@@ -5,27 +5,22 @@ body {
 }
 .hover-effect-nav {
   color: #000;
+  font-size: larger;
 }
 .hover-effect-nav:hover {
-  color: rgb(233, 15, 113) !important;
-  border-bottom: 3px solid rgb(233, 15, 113) !important ;
-  font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
+  color: rgb(233, 15, 113);
+  text-decoration: underline;
 }
 .hover-effect-nav:active {
-  color: rgb(233, 15, 113) !important;
-  border-bottom: 3px solid rgb(233, 15, 113) !important ;
-  font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
+  color: rgb(233, 15, 113);
+  text-decoration: underline;
 }
 .hover-effect-nav:focus-within {
-  color: rgb(233, 15, 113) !important;
-  border-bottom: 3px solid rgb(233, 15, 113) !important ;
-  font-size: large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
+  color: rgb(233, 15, 113);
+  text-decoration: underline;
 }
 
 .banner-movieview {
@@ -35,13 +30,62 @@ body {
   height: 300px;
   width: 100%;
 }
+.img-fluid-custom{max-width:100%;}
 .text-padding {
   padding-top: 130px;
 }
 .text-padding-home {
   padding-top: 170px;
 }
+.search-bar:focus{
+  color: #212529;
+  background-color: #fff;
+  border-color: rgb(233, 15, 113);
+  outline: 0;
+  box-shadow: 0 0 0 .15rem rgb(233, 15, 113);
+}
+.search-btn{
+  background-color:rgb(233, 15, 113) ;
+  color: #fff;
+  font-weight: bold;
+}
+.search-btn:hover{
+  background-color: transparent;
+  color: rgb(233, 15, 113) !important;
+  font-weight: bold;
+  outline: 2px solid rgb(233, 15, 113);
 
+}
+.search-btn:focus{
+  outline: 2px solid rgb(233, 15, 113) !important;
+  font-weight: bold;
+}
+.search-btn:active{
+  outline: 1px solid rgb(233, 15, 113);
+  font-weight: bold;
+}
+
+.search-btn-banner{
+  background-color:rgb(102, 3, 28) ;
+  color: #fff;
+  outline: 2px solid rgb(241, 202, 220);
+  font-weight: bold;
+}
+.search-btn-banner:hover{
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  outline: 2px solid rgb(241, 202, 220);
+
+}
+.search-btn-banner:focus{
+  outline: 2px solid rgb(241, 202, 220) !important;
+  font-weight: bold;
+}
+.search-btn-banner:active{
+  outline: 1px solid rgb(241, 202, 220);
+  font-weight: bold;
+}
 @media (min-width: 280px) and (max-width: 546px) {
   .banner-movieview {
     height: 150px;
@@ -50,13 +94,9 @@ body {
     padding-top: 65px;
   }
   .text-padding-home {
-    padding-top: 95px;
+    padding-top: 145px;
   }
 }
-
-/* .hover-scale:hover {
-  transform: ;
-} */
 .fa-phone:before {
   content: "\f095";
 }

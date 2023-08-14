@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ImageAbout from '../about-us.jpg';
 const AboutView = () => {
   return (
     <>
@@ -40,18 +41,20 @@ const AboutView = () => {
       </div>
 
       {/* about section */}
-      <div className="container mt-5 mb-5">
+      <div className="container offset-md-1 mt-5 mb-5">
         <div className="row row-cols-md-1 row-cols-sm-2  mt-5 mb-5 g-2">
           <div className="col-md-6  col-sm-8 mt-5 mb-5">
             <div className="card">
+              <div className="">
               <img
-                src="https://user-images.githubusercontent.com/113019349/221853128-95f67739-e27a-4373-9e60-aaa4e072cd3a.jpg"
-                alt="https://user-images.githubusercontent.com/113019349/221853128-95f67739-e27a-4373-9e60-aaa4e072cd3a.jpg"
-                height="500px"
+                src={ImageAbout}
+                alt={ImageAbout}
+                className="img-fluid float-lg-end"
               />
+              </div>
             </div>
           </div>
-          <div className="col-md-6  col-sm-8 mt-5 mb-5 p-2">
+          <div className="col-md-6  col-sm-8 mt-5 mb-5  p-2">
             <h1>caretSurf</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -91,8 +94,7 @@ const AboutView = () => {
             </div>
             <Link
               to="/search"
-              className="btn fw-bold p-3 rounded-pill text-white fs-3"
-              style={{ backgroundColor: "rgb(233, 15, 113)" }}
+              className="btn fw-bold p-3 rounded-pill text-white fs-3 search-btn"
             >
               Try it on
             </Link>
