@@ -15,10 +15,7 @@ import Footer from "./Components/Footer";
 import CopyRight from "./Components/CopyRight";
 // our rect hooks in here
 import { useState, useEffect } from "react";
-// import online and offline for detecting if user is online/offline
-// import { Online, Offline } from "react-detect-offline";
-// Image that we will use when offline
-// let logoOffline = require("./icons8-portrait-mode-female-100.png");
+import PageNotFound from "./Components/PageNotFound";
 
 function App() {
   // using react hooks in here to initialize our whether SearchText,
@@ -51,36 +48,9 @@ function App() {
         setSearchText={setSearchText}
         searchResults={searchResults}
       />
-
-      {/* our offline section */}
       <div className="App-header">
-        {/* <Offline> */}
-          {/* <div className="container  text-center">
-            <div className="col-12">
-              <img
-                src={logoOffline}
-                alt="Connect to internet"
-                height="170"
-                width="170"
-              />
-              <h1 className="fs-sm-4 fs-lg-1">Connect to the Internet</h1>
-              <p>You're offline. Check your connection.</p>
-              <form>
-                <button
-                  type="submit"
-                  className="btn  border-outline-secondary text-white fw-bold "
-                  style={{ backgroundColor: "rgb(233, 15, 113)" }}
-                >
-                  Retry
-                </button>
-              </form>
-            </div>
-          </div> */}
-        {/* </Offline> */}
+        
       </div>
-
-      {/* when online Route through these */}
-      {/* <Online> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutView />} />
@@ -96,9 +66,8 @@ function App() {
             }
           />
           <Route path="/movies/:Title" element={<MovieView />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
-      {/* </Online> */}
-
       {/* Our default component very last footer in here */}
       <Footer />
 

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import BackgroundImageHome from '../home-bg.jpg';
 const Home = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const Home = () => {
         className="container-fluid mt-lg-3 mb-5 text-lg-start text-md-start text-sm-center"
         style={{
           backgroundImage:
-            "url(https://user-images.githubusercontent.com/113019349/220018103-d5faca1f-cfa3-497c-9f61-93d119c4307c.jpg)",
+            `url(${BackgroundImageHome})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -68,16 +69,6 @@ const Home = () => {
                 <p className="card-text">Netflix and Popcorn Tudummmmm!</p>
               </div>
             </div>
-            {/* <div className="card  hover-scale border-0 ">
-              <img
-                src="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
-                className=" img-fluid"
-                alt="https://user-images.githubusercontent.com/113019349/221782232-363f57ae-ee42-4a2d-a3ea-baab23af4c7b.jpg"
-              />
-              <div className="card-body">
-                <p className="card-text">Do it in The Big Bang Theory style.</p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
@@ -85,21 +76,21 @@ const Home = () => {
       {/* A link to Search Section and soon to watch movie section */}
       <div className="container text-center mt-5 mb-5">
         <div className="row row-cols-1 mt-5 mb-5">
-          <div className="col-sm-4 col-lg-6 border-end border-secondary border-3">
-            <h4 className="fw-bold mt-5 mb-3">
+          <div className="col-sm-4 col-md-6 col-lg-6 border-end border-secondary border-3">
+            <h4 className="fw-bold mt-3 mb-3">
               Browsing is fun don't you think?
             </h4>
             <Link
               to="/search"
-              className="btn fw-bold p-3 w-50 text-white fs-3 search-btn"
+              className="btn fw-bold p-3 w-50 w-md-100 text-white fs-3 search-btn"
             >
               Take me in
             </Link>
           </div>
-          <div className="col-sm-4 col-lg-6">
-            <h4 className="fw-bold mt-5 mb-3">Watch Movie</h4>
+          <div className="col-sm-4 col-md-6 col-lg-6">
+            <h4 className="fw-bold mt-3 mb-3">Watch Movie</h4>
             <Link
-              className=" disabled btn fw-bold p-3 w-50 text-white fs-3 "
+              className="disabled btn fw-bold p-3 w-50 w-md-100 text-white fs-3 "
               to="/"
               style={{ backgroundColor: "rgb(233, 15, 113)" }}
             >

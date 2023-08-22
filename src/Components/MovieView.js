@@ -68,6 +68,7 @@ const MovieView = () => {
                   alt="the movie details"
                   height="auto"
                   width="100%"
+                  className="img-fluid shadow rounded"
                 ></img>
               </div>
               <div className="col-lg-8 col-sm-6  justify-content-start p-2">

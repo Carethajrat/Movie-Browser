@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
-import ImageAbout from '../about-us.jpg';
+import BackgroundImageAbout from "../about-bg.jpg";
+import AboutIcon from "../about-icon.png";
+import BackroundImage from '../about-background.png';
 const AboutView = () => {
   return (
     <>
       {/* Breadcrumbs for user to have a good track of path using Bootstrap5 */}
       <div className="ms-3 mt-2 mb-5 fw-bold">
         <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
+          <ol className="breadcrumb">
             <li class="breadcrumb-item">
               <Link
                 to="/"
@@ -16,7 +18,7 @@ const AboutView = () => {
                 Home
               </Link>
             </li>
-            <li class="breadcrumb-item active" aria-current="page">
+            <li className="breadcrumb-item active" aria-current="page">
               About Us
             </li>
           </ol>
@@ -27,8 +29,7 @@ const AboutView = () => {
       <div
         className="container-fluid text-center  mt-5 mb-5"
         style={{
-          backgroundImage:
-            "url(https://user-images.githubusercontent.com/113019349/220018161-07e56c83-d5fc-4f3d-ac80-f0cc8cf4762c.jpg)",
+          backgroundImage: `url(${BackgroundImageAbout})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -40,66 +41,44 @@ const AboutView = () => {
         </div>
       </div>
 
+      <div
+        className="d-block d-sm-none d-md-block d-lg-block"
+        style={{ marginTop: "150px" }}
+      ></div>
+
+
       {/* about section */}
-      <div className="container offset-md-1 mt-5 mb-5">
-        <div className="row row-cols-md-1 row-cols-sm-2  mt-5 mb-5 g-2">
-          <div className="col-md-6  col-sm-8 mt-5 mb-5">
-            <div className="card">
-              <div className="">
-              <img
-                src={ImageAbout}
-                alt={ImageAbout}
-                className="img-fluid float-lg-end"
-              />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6  col-sm-8 mt-5 mb-5  p-2">
-            <h1>caretSurf</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Similique enim odio error. Esse officia molestias aspernatur
-              quidem, cupiditate quae dicta reprehenderit blanditiis dignissimos
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Similique enim odio error. Esse officia molestias aspernatur
-              quidem, cupiditate quae dicta reprehenderit blanditiis dignissimos
-            </p>
-            <div className="row row-cols-1 row-cols-sm-2 mt-3 mb-3">
-              <div className="col-lg-3 col-sm-6">
-                <span>
-                  <i className="fa fa-info"></i>
-                  nformation
-                </span>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <span>
-                  <i className="fa fa-search"></i>
-                  Searching
-                </span>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <span>
-                  <i className="fa fa-film"></i>
-                  Movie Browsing
-                </span>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <span>
-                  <i className="fa fa-rocket"></i>
-                  And so much more
-                </span>
-              </div>
-            </div>
-            <Link
-              to="/search"
-              className="btn fw-bold p-3 rounded-pill text-white fs-3 search-btn"
-            >
-              Try it on
-            </Link>
-          </div>
+      <div className="container-fluid"
+        style={{
+          backgroundImage:
+            `url(${BackroundImage})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "700px",
+          width:"100%"}}>
+      <div className="container ">
+        <div className="col-md-6 col-lg-6 col-sm-4 text-center my-5 offset-md-3">
+          <img
+            src={AboutIcon}
+            alt="no content"
+            style={{ height: "100px", width: "100px" }}
+          />
+          <p className="fs-4">Who we are?</p>
+          <p className="fs-5 text-start">
+            We provide you with the best movie information based on your
+            preferences. You can also search for movies by name,title and get all the
+            information regarding that particular movie,TV shows and series.
+            <br />
+          </p>
+          <Link
+            to="/search"
+            className="btn fw-bold p-3 rounded-pill text-white fs-4 search-btn mt-2"
+          >
+            Browse &#128513;
+          </Link>
         </div>
+      </div>
       </div>
     </>
   );
