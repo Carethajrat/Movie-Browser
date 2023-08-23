@@ -1,3 +1,4 @@
+import TwitterLogo from '../download.png';
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -77,7 +78,7 @@ const Footer = () => {
                     target="_blank"
                   >
                     <img
-                      src="https://user-images.githubusercontent.com/113019349/212677170-ff77089c-95bb-422a-8932-61114a6b0b5b.jpg"
+                      src={TwitterLogo}
                       alt="Twitter Icon "
                       height="30"
                       width="30"

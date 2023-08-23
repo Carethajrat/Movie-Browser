@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Tsukimi+Rounded:wght@300&display=swap');
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Lato,sans-serif,arial;
 }
 .App-header {
   display: flex;
@@ -218,10 +220,7 @@ textarea {
   text-transform: uppercase;
   padding: 12px 20px;
   border-radius: 5px;
-  border: none;
-  outline: none;
   cursor: pointer;
-  transition: all .3s;
   transition: all .3s;
 }
 

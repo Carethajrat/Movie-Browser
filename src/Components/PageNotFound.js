@@ -34,7 +34,7 @@ const PageNotFound = () => {
         }}
         className="mt-5 App-header"
       >
-        <div class="container">
+        <div className="container">
           <div class="col-md-6 col-lg-6 col-sm-4 text-center my-5 offset-md-3">
             <img
               src={Image404}

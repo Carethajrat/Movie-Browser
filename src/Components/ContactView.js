@@ -954,7 +954,7 @@ const ContactView = () => {
                   <span className="valid_info_message"></span>
                 </div>
 
-                <div className="inputField btn-custom">
+                <div className="inputField btn-custom ">
                   <button
                     type="submit"
                     id="form-submit"

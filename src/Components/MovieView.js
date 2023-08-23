@@ -22,7 +22,7 @@ const MovieView = () => {
     fetch(`https://www.omdbapi.com/?s=${Title}&apikey=da0212a5`)
       .then((Response) => Response.json())
       .then((data) => {
-        console.log(data, "ye setmoviedetails me");
+        console.log(data, "In setmoviedetails");
 
         setMovieDetails(data.Search[0]);
         setLoading(false);
@@ -51,7 +51,7 @@ const MovieView = () => {
       return (
         <>
           <div
-            className="container-fluid text-center mt-3 banner-movieview"
+            className="container-fluid text-center mt-3 banner-movieview "
             style={{
               backgroundImage: `linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(${imageURL})`,
             }}
@@ -62,7 +62,7 @@ const MovieView = () => {
           </div>
           <div className="container justify-content-center mt-5 mb-5">
             <div className="row row-cols-1 row-cols-sm-2">
-              <div className="col-lg-4 col-sm-6">
+              <div className="col-lg-4 col-md-8 col-sm-6 p-2">
                 <img
                   src={imageURL}
                   alt="the movie details"
@@ -71,22 +71,15 @@ const MovieView = () => {
                   className="img-fluid shadow rounded"
                 ></img>
               </div>
-              <div className="col-lg-8 col-sm-6  justify-content-start p-2">
-                <h1>{movieDetails.Title}</h1>
-                <h4>{movieDetails.Year}</h4>
-                <p className=" fs-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Similique enim odio error. Esse officia molestias aspernatur
-                  quidem, cupiditate quae dicta reprehenderit blanditiis
-                  dignissimos veritatis, natus asperiores repudiandae facere
-                  iste? Nemo?
-                </p>
-                <p className="text-success fw-bold fs-4">
-                  Wanna know more about {movieDetails.Title}?
-                  <br /> Click down below
-                </p>
-                <a href={imdbSearch} className="btn search-btn">
-                  More details
+              <div className="col-lg-8 col-md-8 col-sm-6  justify-content-start p-5">
+                <h1 className="fw-light">{movieDetails.Title}</h1>
+                <h3 className="fw-light">{movieDetails.Title} was released in Year {movieDetails.Year},</h3>
+                <h3 className="fw-light">The Genre of the {movieDetails.Title} is {movieDetails.Type},</h3>
+                <h3 className="fw-light">IMDB ID of {movieDetails.Title} is {movieDetails.imdbID},</h3>
+                <h3 className="fw-light">To know more about the {movieDetails.Title} please navigate to the URL mentioned below.</h3>
+                <h3 className="fw-light">caretSurf uses OMDB Api and based on the response we get the IMDB ID so that we can get more information and this very ID is dynamic,Cool haan :) </h3>
+                <a href={imdbSearch} className="btn search-btn p-2 mt-lg-2 mt-md-0 mt-sm-0">
+                More Details
                 </a>
               </div>
             </div>

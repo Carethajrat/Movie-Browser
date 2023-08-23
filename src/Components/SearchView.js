@@ -1,4 +1,5 @@
 import Hero from './Hero';
+import SubHero from './SubHero';
 import MovieNotFound  from './MovieNotFound';
 import MovieCard from './MovieCard';
 
@@ -35,7 +36,14 @@ const SearchView = ({keyword,searchResults,dataThere}) =>{
         console.log({searchResults} ,"is your searchResult");
         return(
             <>
-            <Hero text={title}/>
+            {
+                !keyword && 
+                <SubHero />
+            }
+            {
+                keyword && 
+                <Hero text={title}/>
+            }
             {resultsHTML && 
                 <div className='container mt-5'>
                     <div className='row row-cols-lg-4 row-cols-sm-2'>

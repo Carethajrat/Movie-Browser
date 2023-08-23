@@ -1,22 +1,36 @@
+import MovieNotFoundIcon from '../iconMovieNotFound.png';
+import BackroundImage from "../about-background.png";
+
 const MovieNotFound = () => {
   return (
     <>
       {/* In case if user has either typo or the movie simply just doesn't exist */}
-      <div className="App-header" style={{marginTop:"130px"}}>
+      <div className="container-fluid"
+        style={{
+          backgroundImage:
+            `url(${BackroundImage})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "700px",
+          width:"100%"}}>
+      <div className="App-header" style={{marginTop:"100px"}}>
         <div className="container  text-center mt-5 mb-5">
           <div className="col-12 mt-lg-5 mb-lg-5">
             <img
-              src="https://user-images.githubusercontent.com/113019349/221499798-f7c155b7-d257-4c28-8b0e-914884b4dbd0.png"
+              src={MovieNotFoundIcon}
               alt="movie not available"
+              style={{height:"200px",width:"200px"}}
             />
-            <h5>
-              Movie you are searching for is not available,
+            <h2 className="text-dark p-2 fw-bold">
+              Movie,TV Show you are looking for is not available,
               <br />
               Sorry about that!
-            </h5>
+            </h2>
           </div>
         </div>
       </div>
+          </div>
     </>
   );
 };

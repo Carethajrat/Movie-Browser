@@ -9,7 +9,7 @@ const AboutView = () => {
       <div className="ms-3 mt-2 mb-5 fw-bold">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
-            <li class="breadcrumb-item">
+            <li className="breadcrumb-item">
               <Link
                 to="/"
                 className="text-decoration-none"
