@@ -64,6 +64,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+# About US and Contact US 
+
+![About Us Page](https://github.com/Carethajrat/Movie-Browser/assets/113019349/7c0548f5-28f0-4e4f-9331-8680040b73a2)
+
+
+
+![Contact Us Page](https://github.com/Carethajrat/Movie-Browser/assets/113019349/fdf6e944-8c7d-4c38-b694-b75225314bb9)
+
+
+
 
 
 
