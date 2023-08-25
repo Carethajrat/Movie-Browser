@@ -41,13 +41,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 # On Large Screen Search by Title
-![screencapture-localhost-3000-search-2023-03-09-15_59_17](https://user-images.githubusercontent.com/113019349/224243963-df35d4f8-d2fa-45a6-bf91-0b7c8d2a7b7e.png)
+![Search Results](https://github.com/Carethajrat/Movie-Browser/assets/113019349/633903f4-a921-486e-a104-69a6e05e30ed)
+
 
 
 
 
 # Detail View for chosen movie
-![screencapture-localhost-3000-movies-The-Big-Bang-Theory-2023-03-09-15_59_36](https://user-images.githubusercontent.com/113019349/224244105-86afa396-0057-426a-afa0-918da699b572.png)
+![Search Detail View Page](https://github.com/Carethajrat/Movie-Browser/assets/113019349/013ad10f-b353-4a1b-9b02-ee891835f812)
 
 
 
@@ -56,9 +57,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-# On Mobile Screen Search : Spiderman no way home
-![Spiderman No Way Home](https://user-images.githubusercontent.com/113019349/224274893-8f29a507-8358-478b-977a-41dbc62cfb1c.png)
-![Footer](https://user-images.githubusercontent.com/113019349/224274944-5b258c1f-a442-428d-a4c5-7503a793749f.png)
+
+# More Details
+![More Details copy](https://github.com/Carethajrat/Movie-Browser/assets/113019349/2a89ffe2-e44f-4819-a879-7e008f78ffbb)
+
+
 
 
 
