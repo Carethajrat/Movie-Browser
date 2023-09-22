@@ -13,8 +13,8 @@ const MovieCard = ({ movie }) => {
     <>
       {/* Our movie cards with image,Title and a button which further will display relevant movie details all dynamically */}
       <div className="col-lg-3 col-sm-6 mb-5">
-        <div className="card shadow-lg mt-3 h-100">
-          <img src={posterURL} className="card-img-top" alt={movie.Title} />
+        <div className="card shadow-lg mt-3 h-100 ">
+          <img src={posterURL} className="card-img-top h-100" alt={movie.Title} />
           <div className="card-body">
             <h5 className="card-title">{movie.Title}</h5>
             <a href={detailURL} className="btn search-btn">
