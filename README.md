@@ -41,7 +41,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 # On Large Screen Search by Title
-![Search Results](https://github.com/Carethajrat/Movie-Browser/assets/113019349/633903f4-a921-486e-a104-69a6e05e30ed)
+![Search Results](https://github.com/Carethajrat/Movie-Browser/assets/113019349/cb3c6633-68e1-432c-964a-37d102707b6a)
+
 
 
 
